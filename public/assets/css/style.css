@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arvo', serif;
+    background: url("../images/background.jpg")50% no-repeat;
+}
+
+.brand {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 30px;
+}
+
+
+.hero-section {
+  background: url("../images/content.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.btn {
+    position:relative;
+    float:right;
+}
+
+#article-title {
+    padding: 25px;
+}
+
+#no-article {
+    background: orange;
+    color: white;
+}
+
+.modal-body {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}

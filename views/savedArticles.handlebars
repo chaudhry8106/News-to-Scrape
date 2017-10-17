@@ -1,0 +1,63 @@
+
+<br>
+<div class="container-fluid">
+    {{#each data}}
+    <br>
+    <div class="list-group">
+      <a href="#" id="article-title" class="list-group-item active">
+        <span class="col-md-9">
+            <h4 class="list-group-item-heading">{{this.title}}</h4>
+        </span>
+        <span class="col-md-1">
+            <button class="btn btn-info">ARTICLE NOTES</button>
+        </span>
+        <span class="col-md-2">
+            <button class="btn btn-danger">DELETE FROM SAVED</button>
+        </span>
+      </a>
+      <a href="{{this.link}}" target="blank" class="list-group-item">
+        <p class="list-group-item-text">{{this.link}}</p>
+      </a>
+    </div>
+    {{/each}}
+    <br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{!-- <br>
+<div class="container-fluid">
+    <br>
+    <div class="list-group">
+      <a href="#" id="article-title" class="list-group-item active">
+        <span class="col-md-9">
+            <h4 class="list-group-item-heading">Article title</h4>
+        </span>
+        <span class="col-md-1">
+            <button class="btn btn-info">ARTICLE NOTES</button>
+        </span>
+        <span class="col-md-2">
+            <button class="btn btn-danger">DELETE FROM SAVED</button>
+        </span>
+      </a>
+      <a href="#" class="list-group-item">
+        <p class="list-group-item-text">...</p>
+      </a>
+    </div>
+
+    <br>
+</div> --}}

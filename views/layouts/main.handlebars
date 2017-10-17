@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>News to Scrape</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!-- Local CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Arvo|UnifrakturMaguntia" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-toggleable-md navbar-light bg-primary">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand brand" href="#">Mongo Scraper</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saved Articles</a>
+              </li>
+              <li>
+                  <!-- Trigger the modal with a button -->
+                 <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-danger">SCRAPE NEW ARTILCES!</button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class="hero-section">
+          <div class="hero-section-text">
+            <h1 class="brand title">The Mongo Scraper</h1>
+            <h5 class="lead">THE WALL STREET JOURNAL EDITION</h5>
+          </div>
+        </div>
+
+        {{{body}}}
+
+        <!-- Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body text-center">
+              <h2>Added 20 new Articles</h2>
+            </div>
+            <div class="modal-footer">
+              <button id="scrapeNew" type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </body>
+</html>

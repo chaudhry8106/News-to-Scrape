@@ -1,0 +1,30 @@
+{
+  "name": "news-to-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudhry8106/News-to-Scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaudhry8106/News-to-Scrape/issues"
+  },
+  "homepage": "https://github.com/chaudhry8106/News-to-Scrape#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.12.0",
+    "mysql2": "^1.4.2",
+    "request": "^2.83.0",
+    "sequelize": "^4.13.5"
+  }
+}
